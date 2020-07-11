@@ -1,0 +1,950 @@
+
+        <html>
+        <head>
+            <title>test-report.xml - Junit Test Report</title>
+            <style type="text/css">
+              h1 {
+    font-family: sans-serif;
+}
+h2 {
+    font-family: sans-serif;
+}
+
+li > a {
+    font-family: monospace;
+}
+
+body {
+    margin-bottom: 3em;
+}
+
+.testclass > td {
+    border-bottom: 1px solid silver;
+    color: #222222;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.testclass > div {
+    padding-left: 1em;
+}
+
+.testclass > a > div {
+    font-size: 1.3em;
+    font-family: sans-serif;
+}
+
+.testcase > div {
+    border-left: 3px solid black;
+    padding-left: 1em;
+}
+
+.testcase pre {
+    display: block;
+    padding: 4px;
+    margin-right: 1em;
+    background-color: #121212;
+    color: #dedede;
+    white-space: pre-wrap;
+}
+
+.testcase .details b {
+    font-size: 1.2em;
+}
+
+.stdout, .stderr, .property {
+    margin-left: 1em;
+}
+
+.testcase-link {
+    text-decoration: none;
+}
+
+.testcase-cell {
+    height: 1.8em;
+    width: 1.8em;
+    vertical-align: middle;
+    text-align: center;
+}
+.testcase-cell a {
+    display: inline-block;
+    margin: -1em;
+    padding: 1em;
+}
+
+.testcase-combined {
+    white-space: pre;
+    padding-left: 1em;
+}
+
+.skipped {
+    background-color: gold;
+}
+
+.failed {
+    background-color: lightcoral;
+}
+
+.passed {
+    background-color: limegreen;
+}
+
+.tooltip {
+    visibility: hidden;
+    padding: 2px;
+    z-index: 1;
+    position: absolute;
+    background: cornsilk;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-left: 10px;
+    opacity: 0;
+}
+.tooltip-parent:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.testcase:hover {
+    background-color: gray;
+    color: white;
+}
+
+.result-stats {
+    margin: auto;
+}
+
+            </style>
+        </head><body><h1>Test Report</h1>
+        <div class="testsuite">
+            <h2>Test Suite: pytest</h2><a name="79298eca-882c-43fc-8e67-7a650b8b8edd">
+            
+            
+            <table>
+            <tr><th align="left">Duration</th><td align="right">10712.177 sec</td></tr>
+            <tr><th align="left">Test Cases</th><td align="right">26</td></tr>
+            <tr><th align="left">Failures</th><td align="right">4</td></tr>
+            
+            
+            </table>
+            <a name="toc"></a>
+            <h2>Results Index</h2>
+            
+        <ul>
+            
+            <li>Failures
+            <ul>
+                    <li>
+                        <a href="#db1debc0-9abe-4189-b0b2-8ed3cbc9bb09">03-single-hop-ipv6-icmp.test_spec03.test_task05[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#e9b63e9f-daa5-4c63-b421-6777ee5a847a">04-single-hop-6lowpan-icmp.test_spec04.test_task07[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#0d8e44a3-0202-44f1-862c-43f1b6bca413">04-single-hop-6lowpan-icmp.test_spec04.test_task08[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#5b1bb33f-7c70-4ce1-b43f-7618f4fcbee3">04-single-hop-6lowpan-icmp.test_spec04.test_task09[nodes0]</a>
+                    </li>
+                    </ul>
+            </li>
+            
+            
+            <li>Skipped
+            <ul>
+                    <li>
+                        <a href="#c863ac31-a1df-4847-83fe-ba8b22c7932d">03-single-hop-ipv6-icmp.test_spec03test_task04[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#33ac9e89-9334-4446-8184-4efb4348ebf8">04-single-hop-6lowpan-icmp.test_spec04test_task05[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#a93b603b-9052-4192-8dba-a8b0e279f5c6">04-single-hop-6lowpan-icmp.test_spec04test_task06[nodes0]</a>
+                    </li>
+                    </ul>
+            </li>
+            
+            <li>All Test Classes
+            <ul>
+            <li>
+                <a href="#b24257e5-fc62-4997-8c8f-528c3d47caea">03-single-hop-ipv6-icmp.test_spec03</a>
+                <ul>
+                
+                    <li>
+                        <a href="#154df937-f5d9-4eec-9747-67d29577e1ad">test_task01[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#9eb73980-3930-435a-a5eb-9c4d9226f021">test_task02[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#727c3996-589e-4b6c-9267-580e40f5aab9">test_task03[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#c863ac31-a1df-4847-83fe-ba8b22c7932d">test_task04[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#db1debc0-9abe-4189-b0b2-8ed3cbc9bb09">test_task05[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#47c36117-bf61-4a18-9091-afb5b5468634">test_task06[nodes0]</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            
+            <li>
+                <a href="#e8f63c32-41da-43f2-90e4-7b5e52bc273e">04-single-hop-6lowpan-icmp.test_spec04</a>
+                <ul>
+                
+                    <li>
+                        <a href="#db766f5a-2df9-4520-a486-cf34d96bde84">test_task01[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#8dc1df64-c195-4889-bd46-f542c760ca27">test_task02[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#ab55fb7c-d520-4829-a6b3-2641e5d4a48a">test_task03[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#555f037d-5d5f-473b-ab0c-a3854ce811ad">test_task04[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#33ac9e89-9334-4446-8184-4efb4348ebf8">test_task05[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#a93b603b-9052-4192-8dba-a8b0e279f5c6">test_task06[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#e9b63e9f-daa5-4c63-b421-6777ee5a847a">test_task07[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#0d8e44a3-0202-44f1-862c-43f1b6bca413">test_task08[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#5b1bb33f-7c70-4ce1-b43f-7618f4fcbee3">test_task09[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#a7072966-4831-48fa-af4b-1b19eb5cab42">test_task10[nodes0]</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            
+            <li>
+                <a href="#26f42d40-0fca-4e21-9ff8-e50799699bc2">05-single-hop-route.test_spec05</a>
+                <ul>
+                
+                    <li>
+                        <a href="#e04c3e34-1fe8-4953-91af-5b69a3b3f7a8">test_task01[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#2e6f2f3a-b7de-4570-8e73-04995f3e172e">test_task02[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#13d3e5f2-380f-4917-af19-de5200d9bbba">test_task03[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#2664eff2-24b4-4c73-a80f-7bee99079278">test_task04[nodes0]</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            
+            <li>
+                <a href="#8c118f2f-f11e-4439-9a28-75c64f164e53">06-single-hop-udp.test_spec06</a>
+                <ul>
+                
+                    <li>
+                        <a href="#977d95ae-32cb-41c5-a0e1-39170beb906d">test_task01[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#a977c6fe-96b2-409f-a7fc-ed8e77999ee0">test_task02[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#676278b2-fde2-40a3-a96e-dc4a91ca9029">test_task03[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#c19526b0-f1af-490a-b808-5aefe66f4579">test_task04[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#e617bba0-c9af-4399-a424-78516733abe2">test_task05[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#79a147b2-5c0f-41bd-99c9-0a02d80c6239">test_task06[nodes0]</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            </ul>
+            </li>
+        </ul>
+        
+            <hr size="2"/>
+            <h2>Test Results</h2>
+            <div class="testclasses">
+            
+        <hr size="2"/>
+        <a name="b24257e5-fc62-4997-8c8f-528c3d47caea">
+        <div class="testclass">
+            <div>Test Class: 03-single-hop-ipv6-icmp.test_spec03</div>
+            <div class="testcases">
+            
+    <a name="154df937-f5d9-4eec-9747-67d29577e1ad">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task01[nodes0]</b></span><br/>
+                <span class="testclassname">03-single-hop-ipv6-icmp.test_spec03</span><br/>
+                <span class="duration">Time Taken: 17.451s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="9eb73980-3930-435a-a5eb-9c4d9226f021">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task02[nodes0]</b></span><br/>
+                <span class="testclassname">03-single-hop-ipv6-icmp.test_spec03</span><br/>
+                <span class="duration">Time Taken: 107.364s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="727c3996-589e-4b6c-9267-580e40f5aab9">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task03[nodes0]</b></span><br/>
+                <span class="testclassname">03-single-hop-ipv6-icmp.test_spec03</span><br/>
+                <span class="duration">Time Taken: 3606.617s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="c863ac31-a1df-4847-83fe-ba8b22c7932d">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task04[nodes0]</b></span><br/>
+                <span class="testclassname">03-single-hop-ipv6-icmp.test_spec03</span><br/>
+                <span class="duration">Time Taken: 0.001s</span>
+            </div>
+            
+            <hr size="1"/>
+            <div class="skipped"><b>Skipped: Test needs sudo to run</b><br/>
+                <pre>03-single-hop-ipv6-icmp/test_spec03.py:89: Test needs sudo to run</pre>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="db1debc0-9abe-4189-b0b2-8ed3cbc9bb09">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task05[nodes0]</b></span><br/>
+                <span class="testclassname">03-single-hop-ipv6-icmp.test_spec03</span><br/>
+                <span class="duration">Time Taken: 109.23s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            <div class="failure"><b>Failed: AssertionError: assert False  +  where False = &lt;bound method GNRCPktbufStatsResults.is_empty of {&#x27;first_byte&#x27;: 1449561120, &#x27;last_byte&#x27;: 1449569312, &#x27;size&#x27;: 8192, &#x27;last_byte_used&#x27;: 7960, &#x27;first_unused&#x27;: {&#x27;start&#x27;: 1449564344, &#x27;next&#x27;: 1449564376, &#x27;size&#x27;: 24}}&gt;()  +    where &lt;bound method GNRCPktbufStatsResults.is_empty of {&#x27;first_byte&#x27;: 1449561120, &#x27;last_byte&#x27;: 1449569312, &#x27;size&#x27;: 8192, &#x27;last_byte_used&#x27;: 7960, &#x27;first_unused&#x27;: {&#x27;start&#x27;: 1449564344, &#x27;next&#x27;: 1449564376, &#x27;size&#x27;: 24}}&gt; = {&#x27;first_byte&#x27;: 1449561120, &#x27;last_byte&#x27;: 1449569312, &#x27;size&#x27;: 8192, &#x27;last_byte_used&#x27;: 7960, &#x27;first_unused&#x27;: {&#x27;start&#x27;: 1449564344, &#x27;next&#x27;: 1449564376, &#x27;size&#x27;: 24}}.is_empty  +      where {&#x27;first_byte&#x27;: 1449561120, &#x27;last_byte&#x27;: 1449569312, &#x27;size&#x27;: 8192, &#x27;last_byte_used&#x27;: 7960, &#x27;first_unused&#x27;: {&#x27;start&#x27;: 1449564344, &#x27;next&#x27;: 1449564376, &#x27;size&#x27;: 24}} = pktbuf(&lt;test_spec03.Shell object at 0x7fb40af85f50&gt;)</b><br/>
+                <pre>nodes = [&lt;test_spec03.Shell object at 0x7fb40af85f50&gt;, &lt;test_spec03.Shell object at 0x7fb40af85150&gt;, &lt;test_spec03.Shell object...ct at 0x7fb40af85590&gt;, &lt;test_spec03.Shell object at 0x7fb40af85dd0&gt;, &lt;test_spec03.Shell object at 0x7fb40af85390&gt;, ...]
+riot_ctrl = &lt;function riot_ctrl.&lt;locals&gt;.ctrl at 0x7fb40af49710&gt;
+
+    @pytest.mark.skipif(not bridged([&quot;tap{}&quot;.format(i)
+                                     for i in range(TASK05_NODES)]),
+                        reason=&quot;tap0 to tap10 are not bridged&quot;)
+    @pytest.mark.parametrize(&#x27;nodes&#x27;,
+                             [pytest.param([&#x27;native&#x27;] * TASK05_NODES)],
+                             indirect=[&#x27;nodes&#x27;])
+    def test_task05(nodes, riot_ctrl):
+        nodes = [
+            riot_ctrl(i, APP, Shell, port=&#x27;tap{}&#x27;.format(i))
+            for i in range(len(nodes))
+        ]
+    
+        async def finish_task05(pinger, future):
+            await future
+            print(pinger.riotctrl.env.get(&quot;PORT&quot;), &quot;done&quot;)
+    
+        _, pinged_addr = lladdr(nodes[0].ifconfig_list())
+        assert pinged_addr.startswith(&quot;fe80::&quot;)
+    
+        futures = []
+        for pinger in nodes[1:]:
+            out = pinger.ping6(pinged_addr,
+                               count=100000, interval=0, packet_size=1452,
+                               async_=True)
+            futures.append(finish_task05(pinger, out))
+        wait_for_futures(futures)
+    
+        time.sleep(60)
+        for node in nodes:
+            # add print to know which node&#x27;s packet buffer is not empty on error
+            print(&quot;check pktbuf on&quot;, node.riotctrl.env.get(&quot;PORT&quot;))
+&gt;           assert pktbuf(node).is_empty()
+E           AssertionError: assert False
+E            +  where False = &lt;bound method GNRCPktbufStatsResults.is_empty of {&#x27;first_byte&#x27;: 1449561120, &#x27;last_byte&#x27;: 1449569312, &#x27;size&#x27;: 8192, &#x27;last_byte_used&#x27;: 7960, &#x27;first_unused&#x27;: {&#x27;start&#x27;: 1449564344, &#x27;next&#x27;: 1449564376, &#x27;size&#x27;: 24}}&gt;()
+E            +    where &lt;bound method GNRCPktbufStatsResults.is_empty of {&#x27;first_byte&#x27;: 1449561120, &#x27;last_byte&#x27;: 1449569312, &#x27;size&#x27;: 8192, &#x27;last_byte_used&#x27;: 7960, &#x27;first_unused&#x27;: {&#x27;start&#x27;: 1449564344, &#x27;next&#x27;: 1449564376, &#x27;size&#x27;: 24}}&gt; = {&#x27;first_byte&#x27;: 1449561120, &#x27;last_byte&#x27;: 1449569312, &#x27;size&#x27;: 8192, &#x27;last_byte_used&#x27;: 7960, &#x27;first_unused&#x27;: {&#x27;start&#x27;: 1449564344, &#x27;next&#x27;: 1449564376, &#x27;size&#x27;: 24}}.is_empty
+E            +      where {&#x27;first_byte&#x27;: 1449561120, &#x27;last_byte&#x27;: 1449569312, &#x27;size&#x27;: 8192, &#x27;last_byte_used&#x27;: 7960, &#x27;first_unused&#x27;: {&#x27;start&#x27;: 1449564344, &#x27;next&#x27;: 1449564376, &#x27;size&#x27;: 24}} = pktbuf(&lt;test_spec03.Shell object at 0x7fb40af85f50&gt;)
+
+03-single-hop-ipv6-icmp/test_spec03.py:151: AssertionError</pre>
+            </div>
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="47c36117-bf61-4a18-9091-afb5b5468634">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task06[nodes0]</b></span><br/>
+                <span class="testclassname">03-single-hop-ipv6-icmp.test_spec03</span><br/>
+                <span class="duration">Time Taken: 167.403s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+            </div>
+        </div>
+        </a>
+        
+        <hr size="2"/>
+        <a name="e8f63c32-41da-43f2-90e4-7b5e52bc273e">
+        <div class="testclass">
+            <div>Test Class: 04-single-hop-6lowpan-icmp.test_spec04</div>
+            <div class="testcases">
+            
+    <a name="db766f5a-2df9-4520-a486-cf34d96bde84">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task01[nodes0]</b></span><br/>
+                <span class="testclassname">04-single-hop-6lowpan-icmp.test_spec04</span><br/>
+                <span class="duration">Time Taken: 62.975s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="8dc1df64-c195-4889-bd46-f542c760ca27">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task02[nodes0]</b></span><br/>
+                <span class="testclassname">04-single-hop-6lowpan-icmp.test_spec04</span><br/>
+                <span class="duration">Time Taken: 206.955s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="ab55fb7c-d520-4829-a6b3-2641e5d4a48a">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task03[nodes0]</b></span><br/>
+                <span class="testclassname">04-single-hop-6lowpan-icmp.test_spec04</span><br/>
+                <span class="duration">Time Taken: 203.822s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="555f037d-5d5f-473b-ab0c-a3854ce811ad">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task04[nodes0]</b></span><br/>
+                <span class="testclassname">04-single-hop-6lowpan-icmp.test_spec04</span><br/>
+                <span class="duration">Time Taken: 1052.753s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="33ac9e89-9334-4446-8184-4efb4348ebf8">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task05[nodes0]</b></span><br/>
+                <span class="testclassname">04-single-hop-6lowpan-icmp.test_spec04</span><br/>
+                <span class="duration">Time Taken: 0.001s</span>
+            </div>
+            
+            <hr size="1"/>
+            <div class="skipped"><b>Skipped: Test can&#x27;t run on IoT-LAB</b><br/>
+                <pre>04-single-hop-6lowpan-icmp/test_spec04.py:120: Test can&#x27;t run on IoT-LAB</pre>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="a93b603b-9052-4192-8dba-a8b0e279f5c6">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task06[nodes0]</b></span><br/>
+                <span class="testclassname">04-single-hop-6lowpan-icmp.test_spec04</span><br/>
+                <span class="duration">Time Taken: 0.0s</span>
+            </div>
+            
+            <hr size="1"/>
+            <div class="skipped"><b>Skipped: Test can&#x27;t run on IoT-LAB</b><br/>
+                <pre>04-single-hop-6lowpan-icmp/test_spec04.py:143: Test can&#x27;t run on IoT-LAB</pre>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="e9b63e9f-daa5-4c63-b421-6777ee5a847a">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task07[nodes0]</b></span><br/>
+                <span class="testclassname">04-single-hop-6lowpan-icmp.test_spec04</span><br/>
+                <span class="duration">Time Taken: 83.664s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            <div class="failure"><b>Failed: pexpect.exceptions.EOF: [&#x27;&gt; &#x27;, &lt;class &#x27;pexpect.exceptions.TIMEOUT&#x27;&gt;]</b><br/>
+                <pre>riot_ctrl = &lt;function riot_ctrl.&lt;locals&gt;.ctrl at 0x7fb40af490e0&gt;
+
+    @pytest.mark.iotlab_creds
+    # nodes passed to riot_ctrl fixture
+    @pytest.mark.parametrize(&#x27;nodes&#x27;,
+                             [pytest.param([&#x27;samr21-xpro&#x27;, &#x27;arduino-zero&#x27;])],
+                             indirect=[&#x27;nodes&#x27;])
+    def test_task07(riot_ctrl):
+        pinger, pinged = (
+            riot_ctrl(0, APP, Shell, modules=[&quot;gnrc_pktbuf_cmd&quot;, &quot;xbee&quot;]),
+            riot_ctrl(1, APP, Shell, modules=[&quot;gnrc_pktbuf_cmd&quot;, &quot;xbee&quot;]),
+        )
+    
+&gt;       pinged_netif, _ = lladdr(pinged.ifconfig_list())
+
+04-single-hop-6lowpan-icmp/test_spec04.py:178: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+../RIOT.ssh/dist/pythonlibs/riotctrl_shell/netif.py:280: in ifconfig_list
+    return self.ifconfig_cmd(netif=netif, timeout=timeout, async_=async_)
+.tox/test/lib/python3.7/site-packages/riotctrl/shell.py:77: in wrapper
+    return func(self, *args, **kwargs)
+../RIOT.ssh/dist/pythonlibs/riotctrl_shell/netif.py:291: in ifconfig_cmd
+    return self.cmd(cmd, timeout=timeout, async_=False)
+.tox/test/lib/python3.7/site-packages/riotctrl/shell.py:89: in cmd
+    self._start_replwrap()
+.tox/test/lib/python3.7/site-packages/riotctrl/shell.py:46: in _start_replwrap
+    timeout=.1)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;riotctrl.ctrl.TermSpawn object at 0x7fb40afc9e90&gt;, pattern = [&#x27;&gt; &#x27;, &lt;class &#x27;pexpect.exceptions.TIMEOUT&#x27;&gt;], args = (), kwargs = {&#x27;timeout&#x27;: 0.1}
+
+    def expect_exact(self, pattern, *args, **kwargs):
+        # pylint:disable=arguments-differ
+        try:
+            return super().expect_exact(pattern, *args, **kwargs)
+        except (pexpect.TIMEOUT, pexpect.EOF) as exc:
+&gt;           raise self._pexpect_exception(exc, pattern)
+E           pexpect.exceptions.EOF: [&#x27;&gt; &#x27;, &lt;class &#x27;pexpect.exceptions.TIMEOUT&#x27;&gt;]
+
+.tox/test/lib/python3.7/site-packages/riotctrl/ctrl.py:49: EOF</pre>
+            </div>
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="0d8e44a3-0202-44f1-862c-43f1b6bca413">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task08[nodes0]</b></span><br/>
+                <span class="testclassname">04-single-hop-6lowpan-icmp.test_spec04</span><br/>
+                <span class="duration">Time Taken: 53.712s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            <div class="failure"><b>Failed: pexpect.exceptions.EOF: [&#x27;&gt; &#x27;, &lt;class &#x27;pexpect.exceptions.TIMEOUT&#x27;&gt;]</b><br/>
+                <pre>riot_ctrl = &lt;function riot_ctrl.&lt;locals&gt;.ctrl at 0x7fb40a46eef0&gt;
+
+    @pytest.mark.iotlab_creds
+    # nodes passed to riot_ctrl fixture
+    @pytest.mark.parametrize(&#x27;nodes&#x27;,
+                             [pytest.param([&#x27;samr21-xpro&#x27;, &#x27;arduino-zero&#x27;])],
+                             indirect=[&#x27;nodes&#x27;])
+    def test_task08(riot_ctrl):
+        pinger, pinged = (
+            riot_ctrl(0, APP, Shell, modules=[&quot;gnrc_pktbuf_cmd&quot;, &quot;xbee&quot;]),
+            riot_ctrl(1, APP, Shell, modules=[&quot;gnrc_pktbuf_cmd&quot;, &quot;xbee&quot;]),
+        )
+    
+&gt;       pinged_netif, pinged_addr = lladdr(pinged.ifconfig_list())
+
+04-single-hop-6lowpan-icmp/test_spec04.py:202: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+../RIOT.ssh/dist/pythonlibs/riotctrl_shell/netif.py:280: in ifconfig_list
+    return self.ifconfig_cmd(netif=netif, timeout=timeout, async_=async_)
+.tox/test/lib/python3.7/site-packages/riotctrl/shell.py:77: in wrapper
+    return func(self, *args, **kwargs)
+../RIOT.ssh/dist/pythonlibs/riotctrl_shell/netif.py:291: in ifconfig_cmd
+    return self.cmd(cmd, timeout=timeout, async_=False)
+.tox/test/lib/python3.7/site-packages/riotctrl/shell.py:89: in cmd
+    self._start_replwrap()
+.tox/test/lib/python3.7/site-packages/riotctrl/shell.py:46: in _start_replwrap
+    timeout=.1)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;riotctrl.ctrl.TermSpawn object at 0x7fb40aeeff90&gt;, pattern = [&#x27;&gt; &#x27;, &lt;class &#x27;pexpect.exceptions.TIMEOUT&#x27;&gt;], args = (), kwargs = {&#x27;timeout&#x27;: 0.1}
+
+    def expect_exact(self, pattern, *args, **kwargs):
+        # pylint:disable=arguments-differ
+        try:
+            return super().expect_exact(pattern, *args, **kwargs)
+        except (pexpect.TIMEOUT, pexpect.EOF) as exc:
+&gt;           raise self._pexpect_exception(exc, pattern)
+E           pexpect.exceptions.EOF: [&#x27;&gt; &#x27;, &lt;class &#x27;pexpect.exceptions.TIMEOUT&#x27;&gt;]
+
+.tox/test/lib/python3.7/site-packages/riotctrl/ctrl.py:49: EOF</pre>
+            </div>
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="5b1bb33f-7c70-4ce1-b43f-7618f4fcbee3">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task09[nodes0]</b></span><br/>
+                <span class="testclassname">04-single-hop-6lowpan-icmp.test_spec04</span><br/>
+                <span class="duration">Time Taken: 55.424s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            <div class="failure"><b>Failed: RuntimeError: Event loop is closed</b><br/>
+                <pre>riot_ctrl = &lt;function riot_ctrl.&lt;locals&gt;.ctrl at 0x7fb40a46edd0&gt;
+
+    @pytest.mark.iotlab_creds
+    # nodes passed to riot_ctrl fixture
+    @pytest.mark.parametrize(&#x27;nodes&#x27;,
+                             [pytest.param([&#x27;iotlab-m3&#x27;, &#x27;iotlab-m3&#x27;,
+                                            &#x27;iotlab-m3&#x27;])],
+                             indirect=[&#x27;nodes&#x27;])
+    def test_task09(riot_ctrl):
+        nodes = (
+            riot_ctrl(0, APP, Shell, modules=[&quot;gnrc_pktbuf_cmd&quot;]),
+            riot_ctrl(1, APP, Shell, modules=[&quot;gnrc_pktbuf_cmd&quot;]),
+            riot_ctrl(2, APP, Shell, modules=[&quot;gnrc_pktbuf_cmd&quot;]),
+        )
+    
+        pinged = nodes[0]
+        pingers = nodes[1:]
+    
+        pinged_netif, pinged_addr = lladdr(pinged.ifconfig_list())
+        pinged.ifconfig_set(pinged_netif, &quot;channel&quot;, 26)
+        assert pinged_addr.startswith(&quot;fe80::&quot;)
+        for pinger in pingers:
+            pinger_netif, _ = lladdr(pinger.ifconfig_list())
+            pinger.ifconfig_set(pinger_netif, &quot;channel&quot;, 26)
+    
+        futures = []
+        for pinger in nodes[1:]:
+            out = pinger.ping6(pinged_addr,
+                               count=200, interval=0, packet_size=1232,
+                               async_=True)
+            futures.append(out)
+&gt;       wait_for_futures(futures)
+
+04-single-hop-6lowpan-icmp/test_spec04.py:245: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+testutils/asyncio.py:11: in wait_for_futures
+    *futures
+/usr/lib/python3.7/asyncio/tasks.py:746: in gather
+    fut = ensure_future(arg, loop=loop)
+/usr/lib/python3.7/asyncio/tasks.py:608: in ensure_future
+    task = loop.create_task(coro_or_future)
+/usr/lib/python3.7/asyncio/base_events.py:398: in create_task
+    self._check_closed()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;_UnixSelectorEventLoop running=False closed=True debug=False&gt;
+
+    def _check_closed(self):
+        if self._closed:
+&gt;           raise RuntimeError(&#x27;Event loop is closed&#x27;)
+E           RuntimeError: Event loop is closed
+
+/usr/lib/python3.7/asyncio/base_events.py:475: RuntimeError</pre>
+            </div>
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="a7072966-4831-48fa-af4b-1b19eb5cab42">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task10[nodes0]</b></span><br/>
+                <span class="testclassname">04-single-hop-6lowpan-icmp.test_spec04</span><br/>
+                <span class="duration">Time Taken: 243.726s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+            </div>
+        </div>
+        </a>
+        
+        <hr size="2"/>
+        <a name="26f42d40-0fca-4e21-9ff8-e50799699bc2">
+        <div class="testclass">
+            <div>Test Class: 05-single-hop-route.test_spec05</div>
+            <div class="testcases">
+            
+    <a name="e04c3e34-1fe8-4953-91af-5b69a3b3f7a8">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task01[nodes0]</b></span><br/>
+                <span class="testclassname">05-single-hop-route.test_spec05</span><br/>
+                <span class="duration">Time Taken: 8.742s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="2e6f2f3a-b7de-4570-8e73-04995f3e172e">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task02[nodes0]</b></span><br/>
+                <span class="testclassname">05-single-hop-route.test_spec05</span><br/>
+                <span class="duration">Time Taken: 94.149s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="13d3e5f2-380f-4917-af19-de5200d9bbba">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task03[nodes0]</b></span><br/>
+                <span class="testclassname">05-single-hop-route.test_spec05</span><br/>
+                <span class="duration">Time Taken: 7.912s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="2664eff2-24b4-4c73-a80f-7bee99079278">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task04[nodes0]</b></span><br/>
+                <span class="testclassname">05-single-hop-route.test_spec05</span><br/>
+                <span class="duration">Time Taken: 10.391s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+            </div>
+        </div>
+        </a>
+        
+        <hr size="2"/>
+        <a name="8c118f2f-f11e-4439-9a28-75c64f164e53">
+        <div class="testclass">
+            <div>Test Class: 06-single-hop-udp.test_spec06</div>
+            <div class="testcases">
+            
+    <a name="977d95ae-32cb-41c5-a0e1-39170beb906d">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task01[nodes0]</b></span><br/>
+                <span class="testclassname">06-single-hop-udp.test_spec06</span><br/>
+                <span class="duration">Time Taken: 2229.453s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="a977c6fe-96b2-409f-a7fc-ed8e77999ee0">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task02[nodes0]</b></span><br/>
+                <span class="testclassname">06-single-hop-udp.test_spec06</span><br/>
+                <span class="duration">Time Taken: 2224.551s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="676278b2-fde2-40a3-a96e-dc4a91ca9029">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task03[nodes0]</b></span><br/>
+                <span class="testclassname">06-single-hop-udp.test_spec06</span><br/>
+                <span class="duration">Time Taken: 13.793s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="c19526b0-f1af-490a-b808-5aefe66f4579">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task04[nodes0]</b></span><br/>
+                <span class="testclassname">06-single-hop-udp.test_spec06</span><br/>
+                <span class="duration">Time Taken: 59.389s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="e617bba0-c9af-4399-a424-78516733abe2">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task05[nodes0]</b></span><br/>
+                <span class="testclassname">06-single-hop-udp.test_spec06</span><br/>
+                <span class="duration">Time Taken: 27.823s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+    <a name="79a147b2-5c0f-41bd-99c9-0a02d80c6239">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task06[nodes0]</b></span><br/>
+                <span class="testclassname">06-single-hop-udp.test_spec06</span><br/>
+                <span class="duration">Time Taken: 63.756s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+            </div>
+        </div>
+        </a>
+        
+            </div>
+        </div>
+        </body></html>
