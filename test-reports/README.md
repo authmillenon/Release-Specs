@@ -9,3 +9,5 @@ Framework still WIP. Here is the
 - [First complete with fixes](test-report-2020-07-11-21-14.html)
 - [Run with aiocoap fix (only affected tests)](test-report-2020-07-11-22-21.html)
 - [Run with root permissions](test-report-2020-07-12-00-17.html)
+- [Task 07 with](test-report-2020-07-12-13-52.html)
+  [pytest/enh/task07](https://github.com/miri64/Release-Specs/tree/pytest/enh/task07)
