@@ -12,3 +12,5 @@ Framework still WIP. Here is the
 - [Spec 07 tests with](test-report-2020-07-12-13-52.html)
   [pytest/enh/task07](https://github.com/miri64/Release-Specs/tree/pytest/enh/task07)
 - [Missing spec 07.05 test from previous](test-report-2020-07-12-20-33.html)
+- [Spec 08 tests with](test-report-2020-07-13-16-35-50.html)
+  [pytest/enh/spec08](https://github.com/RIOT-OS/Release-Specs/pull/159)
