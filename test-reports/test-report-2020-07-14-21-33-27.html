@@ -1,0 +1,766 @@
+
+        <html>
+        <head>
+            <title>test-report.xml - Junit Test Report</title>
+            <style type="text/css">
+              h1 {
+    font-family: sans-serif;
+}
+h2 {
+    font-family: sans-serif;
+}
+
+li > a {
+    font-family: monospace;
+}
+
+body {
+    margin-bottom: 3em;
+}
+
+.testclass > td {
+    border-bottom: 1px solid silver;
+    color: #222222;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.testclass > div {
+    padding-left: 1em;
+}
+
+.testclass > a > div {
+    font-size: 1.3em;
+    font-family: sans-serif;
+}
+
+.testcase > div {
+    border-left: 3px solid black;
+    padding-left: 1em;
+}
+
+.testcase pre {
+    display: block;
+    padding: 4px;
+    margin-right: 1em;
+    background-color: #121212;
+    color: #dedede;
+    white-space: pre-wrap;
+}
+
+.testcase .details b {
+    font-size: 1.2em;
+}
+
+.stdout, .stderr, .property {
+    margin-left: 1em;
+}
+
+.testcase-link {
+    text-decoration: none;
+}
+
+.testcase-cell {
+    height: 1.8em;
+    width: 1.8em;
+    vertical-align: middle;
+    text-align: center;
+}
+.testcase-cell a {
+    display: inline-block;
+    margin: -1em;
+    padding: 1em;
+}
+
+.testcase-combined {
+    white-space: pre;
+    padding-left: 1em;
+}
+
+.skipped {
+    background-color: gold;
+}
+
+.failed {
+    background-color: lightcoral;
+}
+
+.passed {
+    background-color: limegreen;
+}
+
+.tooltip {
+    visibility: hidden;
+    padding: 2px;
+    z-index: 1;
+    position: absolute;
+    background: cornsilk;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-left: 10px;
+    opacity: 0;
+}
+.tooltip-parent:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.testcase:hover {
+    background-color: gray;
+    color: white;
+}
+
+.result-stats {
+    margin: auto;
+}
+
+            </style>
+        </head><body><h1>Test Report</h1>
+        <div class="testsuite">
+            <h2>Test Suite: pytest</h2><a name="0906dea2-db4f-465f-882a-a1e5fa8daa1f">
+            
+            
+            <table>
+            <tr><th align="left">Duration</th><td align="right">425.131 sec</td></tr>
+            <tr><th align="left">Test Cases</th><td align="right">6</td></tr>
+            <tr><th align="left">Failures</th><td align="right">0</td></tr>
+            
+            
+            </table>
+            <a name="toc"></a>
+            <h2>Results Index</h2>
+            
+        <ul>
+            
+            
+            <li>All Test Classes
+            <ul>
+            <li>
+                <a href="#bab98c4f-ebc8-4f5e-92f8-1dbcb7866966">09-coap.test_spec09</a>
+                <ul>
+                
+                    <li>
+                        <a href="#b8a21e9b-be48-4401-8076-8834f646ed72">test_task01[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#739ed321-ffd1-4137-a530-a11e3e1ee178">test_task02[nodes0-True-1]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#77a65755-f3c0-4da6-b570-7dbd04a4e7fe">test_task02[nodes1-False-0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#898ef6b6-d12c-4550-8528-3485da41e391">test_task03[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#1edc16fe-88af-48d2-9aca-8be30a96f32d">test_task04[nodes0]</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#67429706-43cb-4fb6-b3b8-a1b74993c573">test_task05[nodes0]</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            </ul>
+            </li>
+        </ul>
+        
+            <hr size="2"/>
+            <h2>Test Results</h2>
+            <div class="testclasses">
+            
+        <hr size="2"/>
+        <a name="bab98c4f-ebc8-4f5e-92f8-1dbcb7866966">
+        <div class="testclass">
+            <div>Test Class: 09-coap.test_spec09</div>
+            <div class="testcases">
+            
+    <a name="b8a21e9b-be48-4401-8076-8834f646ed72">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task01[nodes0]</b></span><br/>
+                <span class="testclassname">09-coap.test_spec09</span><br/>
+                <span class="duration">Time Taken: 66.623s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+            <div class="stdout"><i>Stdout</i><br/>
+                <pre>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+/home/mlenders/Repositories/RIOT-OS/RIOT/examples/cord_ep/bin/native/cord_ep.elf tap0
+RIOT native interrupts/signals initialized.
+LED_RED_OFF
+LED_GREEN_ON
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+main(): This is RIOT! (Version: 2020.10-devel-2-gd968f-riotctrl.netif/bug/multi-iface-w-stats)
+CoRE RD client example!
+
+Client information:
+  ep: RIOT-6B4723236B472323
+  lt: 60s
+&gt; 
+
+
+&gt; ifconfig
+ifconfig
+
+Iface  7  HWaddr: B6:4F:A1:0E:8F:CC 
+          L2-PDU:1500  MTU:1500  HL:64  Source address length: 6
+          Link type: wired
+          inet6 addr: fe80::b44f:a1ff:fe0e:8fcc  scope: link  VAL
+          inet6 group: ff02::1
+          inet6 group: ff02::1:ff0e:8fcc
+          
+&gt; ifconfig 7 add fd00:bbbb::2
+ifconfig 7 add fd00:bbbb::2
+
+success: added fd00:bbbb::2/64 to interface 7
+&gt; cord_ep register [fd00:bbbb::1]
+cord_ep register [fd00:bbbb::1]
+
+Registering with RD now, this may take a short while...
+RD endpoint event: now registered with a RD
+registration successful
+
+CoAP RD connection status:
+RD address: coap://[fd00:bbbb::1]:5683
+   ep name: RIOT-6B4723236B472323
+  lifetime: 60s
+    reg if: /resourcedirectory
+  location: /reg/1/
+&gt; RD endpoint event: successfully updated client registration
+
+</pre></div>
+            <hr size="1"/>
+            <div class="stderr"><i>Stderr</i><br/>
+                <pre>--------------------------------- Captured Err ---------------------------------
+
+</pre></div>
+                
+        </div>
+    </a>
+        
+    <a name="739ed321-ffd1-4137-a530-a11e3e1ee178">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task02[nodes0-True-1]</b></span><br/>
+                <span class="testclassname">09-coap.test_spec09</span><br/>
+                <span class="duration">Time Taken: 6.319s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+            <div class="stdout"><i>Stdout</i><br/>
+                <pre>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+/home/mlenders/Repositories/RIOT-OS/RIOT/examples/gcoap/bin/native/gcoap_example.elf tap0
+RIOT native interrupts/signals initialized.
+LED_RED_OFF
+LED_GREEN_ON
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+main(): This is RIOT! (Version: 2020.10-devel-2-gd968f-riotctrl.netif/bug/multi-iface-w-stats)
+gcoap example app
+All up, running the shell now
+&gt; 
+
+
+&gt; ifconfig
+ifconfig
+
+Iface  6  HWaddr: B6:4F:A1:0E:8F:CC 
+          L2-PDU:1500  MTU:1500  HL:64  Source address length: 6
+          Link type: wired
+          inet6 addr: fe80::b44f:a1ff:fe0e:8fcc  scope: link  VAL
+          inet6 group: ff02::1
+          inet6 group: ff02::1:ff0e:8fcc
+          
+&gt; ifconfig 6 add fd00:bbbb::2
+ifconfig 6 add fd00:bbbb::2
+
+success: added fd00:bbbb::2/64 to interface 6
+&gt; coap get -c fd00:bbbb::1 5683 /time
+coap get -c fd00:bbbb::1 5683 /time
+
+gcoap_cli: sending msg ID 24812, 11 bytes
+&gt; gcoap: response Success, code 2.05, 16 bytes
+00000000  32  30  32  30  2D  30  37  2D  31  34  20  32
+</pre></div>
+            <hr size="1"/>
+            <div class="stderr"><i>Stderr</i><br/>
+                <pre>--------------------------------- Captured Err ---------------------------------
+
+</pre></div>
+                
+        </div>
+    </a>
+        
+    <a name="77a65755-f3c0-4da6-b570-7dbd04a4e7fe">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task02[nodes1-False-0]</b></span><br/>
+                <span class="testclassname">09-coap.test_spec09</span><br/>
+                <span class="duration">Time Taken: 79.061s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+            <div class="stdout"><i>Stdout</i><br/>
+                <pre>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+/home/mlenders/Repositories/RIOT-OS/RIOT/examples/gcoap/bin/native/gcoap_example.elf tap0
+RIOT native interrupts/signals initialized.
+LED_RED_OFF
+LED_GREEN_ON
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+main(): This is RIOT! (Version: 2020.10-devel-2-gd968f-riotctrl.netif/bug/multi-iface-w-stats)
+gcoap example app
+All up, running the shell now
+&gt; 
+
+
+&gt; ifconfig
+ifconfig
+
+Iface  6  HWaddr: B6:4F:A1:0E:8F:CC 
+          L2-PDU:1500  MTU:1500  HL:64  Source address length: 6
+          Link type: wired
+          inet6 addr: fe80::b44f:a1ff:fe0e:8fcc  scope: link  VAL
+          inet6 group: ff02::1
+          inet6 group: ff02::1:ff0e:8fcc
+          
+&gt; ifconfig 6 add fd00:bbbb::2
+ifconfig 6 add fd00:bbbb::2
+
+success: added fd00:bbbb::2/64 to interface 6
+&gt; coap get -c fd00:bbbb::1 5683 /time
+coap get -c fd00:bbbb::1 5683 /time
+
+gcoap_cli: sending msg ID 2499, 11 bytes
+&gt; gcoap: timeout for msg ID 2499
+
+</pre></div>
+            <hr size="1"/>
+            <div class="stderr"><i>Stderr</i><br/>
+                <pre>--------------------------------- Captured Err ---------------------------------
+
+</pre></div>
+                
+        </div>
+    </a>
+        
+    <a name="898ef6b6-d12c-4550-8528-3485da41e391">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task03[nodes0]</b></span><br/>
+                <span class="testclassname">09-coap.test_spec09</span><br/>
+                <span class="duration">Time Taken: 133.922s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+            <div class="stdout"><i>Stdout</i><br/>
+                <pre>--------------------------------- Captured Log ---------------------------------
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+--------------------------------- Captured Out ---------------------------------
+/home/mlenders/Repositories/RIOT-OS/RIOT/examples/nanocoap_server/bin/native/nanocoap_server.elf tap0
+RIOT native interrupts/signals initialized.
+LED_RED_OFF
+LED_GREEN_ON
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+main(): This is RIOT! (Version: 2020.10-devel-2-gd968f-riotctrl.netif/bug/multi-iface-w-stats)
+RIOT nanocoap example application
+Waiting for address autoconfiguration...
+Configured network interfaces:
+Iface  5  HWaddr: B6:4F:A1:0E:8F:CC 
+          L2-PDU:1500  MTU:1500  HL:64  Source address length: 6
+          Link type: wired
+          inet6 addr: fe80::b44f:a1ff:fe0e:8fcc  scope: link  VAL
+          inet6 group: ff02::1
+          inet6 group: ff02::1:ff0e:8fcc
+          
+Testing block size 16
+Testing block size 32
+Testing block size 48
+Testing block size 64
+Testing block size 80
+Testing block size 96
+Testing block size 112
+Testing block size 128
+Testing block size 144
+Testing block size 160
+Testing block size 176
+Testing block size 192
+Testing block size 208
+Testing block size 224
+Testing block size 240
+Testing block size 256
+Testing block size 272
+Testing block size 288
+Testing block size 304
+Testing block size 320
+Testing block size 336
+Testing block size 352
+Testing block size 368
+Testing block size 384
+Testing block size 400
+Testing block size 416
+Testing block size 432
+Testing block size 448
+Testing block size 464
+Testing block size 480
+Testing block size 496
+Testing block size 512
+Testing block size 528
+Testing block size 544
+Testing block size 560
+Testing block size 576
+Testing block size 592
+Testing block size 608
+Testing block size 624
+Testing block size 640
+Testing block size 656
+Testing block size 672
+Testing block size 688
+Testing block size 704
+Testing block size 720
+Testing block size 736
+Testing block size 752
+Testing block size 768
+Testing block size 784
+Testing block size 800
+Testing block size 816
+Testing block size 832
+Testing block size 848
+Testing block size 864
+Testing block size 880
+Testing block size 896
+Testing block size 912
+Testing block size 928
+Testing block size 944
+Testing block size 960
+Testing block size 976
+Testing block size 992
+Testing block size 1008
+Testing block size 1024
+
+</pre></div>
+            <hr size="1"/>
+            <div class="stderr"><i>Stderr</i><br/>
+                <pre>--------------------------------- Captured Err ---------------------------------
+
+</pre></div>
+                
+        </div>
+    </a>
+        
+    <a name="1edc16fe-88af-48d2-9aca-8be30a96f32d">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task04[nodes0]</b></span><br/>
+                <span class="testclassname">09-coap.test_spec09</span><br/>
+                <span class="duration">Time Taken: 132.861s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+            <div class="stdout"><i>Stdout</i><br/>
+                <pre>--------------------------------- Captured Log ---------------------------------
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+#x1B[1m#x1B[31mERROR   #x1B[0m coap:udp6.py:391 Connection loss was not expected.
+--------------------------------- Captured Out ---------------------------------
+/home/mlenders/Repositories/RIOT-OS/RIOT/examples/nanocoap_server/bin/native/nanocoap_server.elf tap0
+RIOT native interrupts/signals initialized.
+LED_RED_OFF
+LED_GREEN_ON
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+main(): This is RIOT! (Version: 2020.10-devel-2-gd968f-riotctrl.netif/bug/multi-iface-w-stats)
+RIOT nanocoap example application
+Waiting for address autoconfiguration...
+Configured network interfaces:
+Iface  5  HWaddr: B6:4F:A1:0E:8F:CC 
+          L2-PDU:1500  MTU:1500  HL:64  Source address length: 6
+          Link type: wired
+          inet6 addr: fe80::b44f:a1ff:fe0e:8fcc  scope: link  VAL
+          inet6 group: ff02::1
+          inet6 group: ff02::1:ff0e:8fcc
+          
+Testing block size 16
+Testing block size 32
+Testing block size 48
+Testing block size 64
+Testing block size 80
+Testing block size 96
+Testing block size 112
+Testing block size 128
+Testing block size 144
+Testing block size 160
+Testing block size 176
+Testing block size 192
+Testing block size 208
+Testing block size 224
+Testing block size 240
+Testing block size 256
+Testing block size 272
+Testing block size 288
+Testing block size 304
+Testing block size 320
+Testing block size 336
+Testing block size 352
+Testing block size 368
+Testing block size 384
+Testing block size 400
+Testing block size 416
+Testing block size 432
+Testing block size 448
+Testing block size 464
+Testing block size 480
+Testing block size 496
+Testing block size 512
+Testing block size 528
+Testing block size 544
+Testing block size 560
+Testing block size 576
+Testing block size 592
+Testing block size 608
+Testing block size 624
+Testing block size 640
+Testing block size 656
+Testing block size 672
+Testing block size 688
+Testing block size 704
+Testing block size 720
+Testing block size 736
+Testing block size 752
+Testing block size 768
+Testing block size 784
+Testing block size 800
+Testing block size 816
+Testing block size 832
+Testing block size 848
+Testing block size 864
+Testing block size 880
+Testing block size 896
+Testing block size 912
+Testing block size 928
+Testing block size 944
+Testing block size 960
+Testing block size 976
+Testing block size 992
+Testing block size 1008
+Testing block size 1024
+
+</pre></div>
+            <hr size="1"/>
+            <div class="stderr"><i>Stderr</i><br/>
+                <pre>--------------------------------- Captured Err ---------------------------------
+
+</pre></div>
+                
+        </div>
+    </a>
+        
+    <a name="67429706-43cb-4fb6-b3b8-a1b74993c573">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>test_task05[nodes0]</b></span><br/>
+                <span class="testclassname">09-coap.test_spec09</span><br/>
+                <span class="duration">Time Taken: 6.188s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+            <div class="stdout"><i>Stdout</i><br/>
+                <pre>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+/home/mlenders/Repositories/RIOT-OS/RIOT/examples/gcoap/bin/native/gcoap_example.elf tap0
+RIOT native interrupts/signals initialized.
+LED_RED_OFF
+LED_GREEN_ON
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+main(): This is RIOT! (Version: 2020.10-devel-2-gd968f-riotctrl.netif/bug/multi-iface-w-stats)
+gcoap example app
+All up, running the shell now
+&gt; 
+
+
+&gt; ifconfig
+ifconfig
+
+Iface  6  HWaddr: B6:4F:A1:0E:8F:CC 
+          L2-PDU:1500  MTU:1500  HL:64  Source address length: 6
+          Link type: wired
+          inet6 addr: fe80::b44f:a1ff:fe0e:8fcc  scope: link  VAL
+          inet6 group: ff02::1
+          inet6 group: ff02::1:ff0e:8fcc
+          
+&gt; ifconfig 6 add fd00:bbbb::2
+ifconfig 6 add fd00:bbbb::2
+
+success: added fd00:bbbb::2/64 to interface 6
+&gt; coap get -c fd00:bbbb::1 5683 /time
+coap get -c fd00:bbbb::1 5683 /time
+
+gcoap_cli: sending msg ID 11136, 11 bytes
+&gt; gcoap: response Success, code 2.05, 16 bytes
+2020-07-14 21:29
+
+</pre></div>
+            <hr size="1"/>
+            <div class="stderr"><i>Stderr</i><br/>
+                <pre>--------------------------------- Captured Err ---------------------------------
+
+</pre></div>
+                
+        </div>
+    </a>
+        
+            </div>
+        </div>
+        </a>
+        
+            </div>
+        </div>
+        </body></html>
