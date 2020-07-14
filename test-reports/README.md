@@ -15,3 +15,4 @@ Framework still WIP. Here is the
 - [Spec 08 tests with](test-report-2020-07-13-16-35-50.html)
   [pytest/enh/spec08](https://github.com/RIOT-OS/Release-Specs/pull/159)
 - [Spec 10 tests](test-report-2020-07-14-14-39-49.html)
+- [Spec 10 tests after linting](test-report-2020-07-14-16-44-44.html)
