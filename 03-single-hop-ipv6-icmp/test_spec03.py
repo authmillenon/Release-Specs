@@ -35,6 +35,7 @@ def test_task01(riot_ctrl):
     )
 
     res = ping6(pinger, "ff02::1", count=1000, packet_size=0, interval=10)
+    assert False
     assert res['stats']['packet_loss'] < 1
 
     assert pktbuf(pinged).is_empty()
